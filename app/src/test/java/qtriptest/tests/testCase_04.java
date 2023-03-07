@@ -40,7 +40,7 @@ public class testCase_04 {
          historyPage=new HistoryPage(driver);
 
     }
-    @Test(description = "testCase_04", priority = 4,dataProvider = "userData",dataProviderClass = DP.class)
+    @Test(description = "testCase_04", priority = 4,dataProvider = "userData",dataProviderClass = DP.class,groups = "Reliability Flow")
     public void TestCase04(String test,String email, String password,String dataSet,String dataSet1,String dataSet2) throws InterruptedException {
 
             String generatedRandomUser =email+ UUID.randomUUID().toString()+"gmail.com" ;

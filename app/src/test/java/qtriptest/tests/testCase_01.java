@@ -69,7 +69,7 @@ public class testCase_01  {
     //     loginPage = new LoginPage(driver);
     //    // adventurePage= new AdventurePage(driver);
     // }
-    @Test(description = "testCase_01", priority = 1, dataProvider="userData",dataProviderClass = DP.class)
+    @Test(description = "testCase_01", priority = 1, dataProvider="userData",dataProviderClass = DP.class,groups = "Login Flow")
     public void TestCase01(String test ,String email, String password ) throws InterruptedException {
         // Generate a random email address using UUID
         String generatedRandomUser =email+ UUID.randomUUID().toString()+"gmail.com" ;

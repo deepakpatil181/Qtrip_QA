@@ -7,7 +7,13 @@
       <class name="qtriptest.tests.testCase_03" />
       <class name="qtriptest.tests.testCase_04" />
     </classes>
-    <!-- <parameter name="email" value="user_test1008@gmail.com"/>
-    <parameter name="password" value="Abcd@1234"/> -->
+    <groups>
+      <run>
+        <include name="Login Flow" />
+        <include name="Search and Filter flow" />
+        <include name="Booking and Cancellation Flow" />
+        <include name="Reliability Flow" />
+      </run>
+    </groups>
   </test>
 </suite>

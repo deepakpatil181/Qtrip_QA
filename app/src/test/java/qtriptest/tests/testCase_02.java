@@ -66,7 +66,7 @@ public class testCase_02{
             adventurePage= new AdventurePage(driver);
         }
 
-        @Test(description = "testCase_02", priority = 2, dataProvider = "userData",dataProviderClass = DP.class)
+        @Test(description = "testCase_02", priority = 2, dataProvider = "userData",dataProviderClass = DP.class,groups = "Search and Filter flow")
         public void TestCase02(String test,String cityName,String Category_Filter,String duration,String ExpectedFilteredResults, String ExpectedUnFilteredResults ) throws InterruptedException {
 
             String generateRandomCityName="Deepak";

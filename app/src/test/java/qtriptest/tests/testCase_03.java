@@ -40,7 +40,7 @@ public class testCase_03 {
 
 
     }
-    @Test(description = "testCase_03", priority = 3,dataProvider = "userData",dataProviderClass = DP.class)
+    @Test(description = "testCase_03", priority = 3,dataProvider = "userData",dataProviderClass = DP.class,groups = "Booking and Cancellation Flow")
     public void TestCase03(String test,String email,String password,String cityName,String AdventureName,String GuestName,String date,String count) throws InterruptedException {
         String generatedRandomUser =email+ UUID.randomUUID().toString()+"gmail.com" ;
         String loginUser=generatedRandomUser;
