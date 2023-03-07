@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests for Qtrip Regression">
+  <test name="Testcase_0">
+    <classes>
+      <class name="qtriptest.tests.testCase_01" />
+      <class name="qtriptest.tests.testCase_02" />
+      <class name="qtriptest.tests.testCase_03" />
+      <class name="qtriptest.tests.testCase_04" />
+    </classes>
+    <!-- <parameter name="email" value="user_test1008@gmail.com"/>
+    <parameter name="password" value="Abcd@1234"/> -->
+  </test>
+</suite>
