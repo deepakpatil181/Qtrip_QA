@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Tests for Qtrip Regression">
-  <test name="Testcase_0">
+  <test name="Regression">
     <classes>
       <class name="qtriptest.tests.testCase_01" />
       <class name="qtriptest.tests.testCase_02" />

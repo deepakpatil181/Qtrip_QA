@@ -72,7 +72,7 @@ public class testCase_01  {
     @Test(description = "testCase_01", priority = 1, dataProvider="userData",dataProviderClass = DP.class,groups = "Login Flow")
     public void TestCase01(String test ,String email, String password ) throws InterruptedException {
         // Generate a random email address using UUID
-        String generatedRandomUser =email+ UUID.randomUUID().toString()+"gmail.com" ;
+        String generatedRandomUser = UUID.randomUUID().toString()+email ;
         String loginUser=generatedRandomUser;
     
         // 1. Navigate to Home Page of QTrip
