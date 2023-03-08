@@ -138,7 +138,7 @@ public class testCase_02{
             Assert.assertEquals(String.valueOf(adventurePage.getResultCount()), ExpectedUnFilteredResults,"it showing wrong");
             
             driver.findElement(By.xpath("//a[normalize-space()='Home']")).click();
-            Thread.sleep(1000);
+            Thread.sleep(2000);
 
 }
 @AfterTest

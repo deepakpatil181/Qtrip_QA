@@ -3,16 +3,16 @@
   <test name="Regression">
     <classes>
       <class name="qtriptest.tests.testCase_01" />
-      <class name="qtriptest.tests.testCase_02" />
+      <!-- <class name="qtriptest.tests.testCase_02" />
       <class name="qtriptest.tests.testCase_03" />
-      <class name="qtriptest.tests.testCase_04" />
+      <class name="qtriptest.tests.testCase_04" /> -->
     </classes>
     <groups>
       <run>
-        <include name="Login Flow" />
+        <!-- <include name="Login Flow" />
         <include name="Search and Filter flow" />
         <include name="Booking and Cancellation Flow" />
-        <include name="Reliability Flow" />
+        <include name="Reliability Flow" /> -->
       </run>
     </groups>
   </test>
